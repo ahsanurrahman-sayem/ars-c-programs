@@ -15,3 +15,8 @@ clang laa.c -o laa && ./laa
 
 make
 ```
+### 3. mkdirs
+```ash
+# Compile it with make and run
+mkdirs
+```
