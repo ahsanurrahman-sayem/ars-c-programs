@@ -1,0 +1,14 @@
+cmake_minimum_required(VERSION 3.10)
+project(mkdirs VERSION 1.0 LANGUAGES C)
+
+set(CMAKE_C_STANDARD 99)
+set(CMAKE_C_STANDARD_REQUIRED ON)
+
+add_executable(mkdirs mkdirs.c)
+
+# Installation
+install(TARGETS mkdirs
+    RUNTIME DESTINATION bin
+    PERMISSIONS OWNER_READ OWNER_WRITE OWNER_EXECUTE
+    GROUP_READ GROUP_EXECUTE
+    WORLD_READ WORLD_EXECUTE)
