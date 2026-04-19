@@ -28,5 +28,5 @@ clang fmtweb.c -o fmtweb
 # Get a messy html,css&js file that needs proper code formating and run,
 ./fmtweb -w messy_html_file.html
 
-# Congraths now enjoy clean code base inside the file.
+# Congrats! now enjoy clean code base inside the file.
 ```
