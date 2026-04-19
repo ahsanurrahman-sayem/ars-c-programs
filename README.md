@@ -20,3 +20,13 @@ make
 # Compile it with make and run
 mkdirs
 ```
+### 4. formate-weblang
+```ash
+# Compile it with clang.
+clang fmtweb.c -o fmtweb
+
+# Get a messy html,css&js file that needs proper code formating and run,
+./fmtweb -w messy_html_file.html
+
+# Congraths now enjoy clean code base inside the file.
+```
